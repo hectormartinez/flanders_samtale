@@ -1,0 +1,4192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeTable>
+	<CodeTableInfo/>
+	<CodeRecordList>
+		<CodeRecord>
+			<CodeID>1-ENGI</CodeID>
+			<CodeDescription>Engineer - Automation</CodeDescription>
+			<CodeProperty name="codeid">1-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>10-TELC</CodeID>
+			<CodeDescription>Telco Switch Technician</CodeDescription>
+			<CodeProperty name="codeid">10-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>100-PROD</CodeID>
+			<CodeDescription>Production Clerk</CodeDescription>
+			<CodeProperty name="codeid">100-PROD</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>101-ECON</CodeID>
+			<CodeDescription>Economist</CodeDescription>
+			<CodeProperty name="codeid">101-ECON</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>102-STOR</CodeID>
+			<CodeDescription>Store Assistant</CodeDescription>
+			<CodeProperty name="codeid">102-STOR</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>assistant store manager</InstanceDescription>
+					<InstanceProperty name="confidence">33.5757575757576</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>store assistant</InstanceDescription>
+					<InstanceProperty name="confidence">58.5757575757576</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>shop assistant</InstanceDescription>
+					<InstanceProperty name="confidence">28.7037037037037</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>103-TECH</CodeID>
+			<CodeDescription>Technician - Production</CodeDescription>
+			<CodeProperty name="codeid">103-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>104-PROC</CodeID>
+			<CodeDescription>Procurement Assistant</CodeDescription>
+			<CodeProperty name="codeid">104-PROC</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>105-GUES</CodeID>
+			<CodeDescription>Guest Relations Officer</CodeDescription>
+			<CodeProperty name="codeid">105-GUES</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>106-CALL</CodeID>
+			<CodeDescription>Call Centre Manager</CodeDescription>
+			<CodeProperty name="codeid">106-CALL</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>manager call centre</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>107-SALE</CodeID>
+			<CodeDescription>Sales &amp; Marketing</CodeDescription>
+			<CodeProperty name="codeid">107-SALE</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>108-ASSO</CodeID>
+			<CodeDescription>Associate Engineer</CodeDescription>
+			<CodeProperty name="codeid">108-ASSO</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>109-RELA</CodeID>
+			<CodeDescription>Relationship Ofr-Telesale</CodeDescription>
+			<CodeProperty name="codeid">109-RELA</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>11-DEVE</CodeID>
+			<CodeDescription>Development Manager</CodeDescription>
+			<CodeProperty name="codeid">11-DEVE</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>110-HELP</CodeID>
+			<CodeDescription>Helpdesk Asst Supervisor</CodeDescription>
+			<CodeProperty name="codeid">110-HELP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>111-ENGI</CodeID>
+			<CodeDescription>Engineer - QA</CodeDescription>
+			<CodeProperty name="codeid">111-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>QA engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>112-ENGI</CodeID>
+			<CodeDescription>Engineer - Facilities</CodeDescription>
+			<CodeProperty name="codeid">112-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>113-FINA</CodeID>
+			<CodeDescription>Finance Director</CodeDescription>
+			<CodeProperty name="codeid">113-FINA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>head of finance</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>finance director</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>chief financial officer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>114-COMP</CodeID>
+			<CodeDescription>Company Secretary</CodeDescription>
+			<CodeProperty name="codeid">114-COMP</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>115-PROD</CodeID>
+			<CodeDescription>Product Manager</CodeDescription>
+			<CodeProperty name="codeid">115-PROD</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>116-TELC</CodeID>
+			<CodeDescription>Telco Power Specialist</CodeDescription>
+			<CodeProperty name="codeid">116-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>117-CUST</CodeID>
+			<CodeDescription>Custodians</CodeDescription>
+			<CodeProperty name="codeid">117-CUST</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>118-PROJ</CodeID>
+			<CodeDescription>Project Co-ord</CodeDescription>
+			<CodeProperty name="codeid">118-PROJ</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>project co-ordinator</InstanceDescription>
+					<InstanceProperty name="confidence">26.5151515151515</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>119-HELP</CodeID>
+			<CodeDescription>Help Desk Specialist</CodeDescription>
+			<CodeProperty name="codeid">119-HELP</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>12-BUYE</CodeID>
+			<CodeDescription>Buyer</CodeDescription>
+			<CodeProperty name="codeid">12-BUYE</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>120-TELC</CodeID>
+			<CodeDescription>Telco Planner</CodeDescription>
+			<CodeProperty name="codeid">120-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>121-ITT</CodeID>
+			<CodeDescription>IT Trainer</CodeDescription>
+			<CodeProperty name="codeid">121-ITT</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>122-CONF</CodeID>
+			<CodeDescription>Conference Manager</CodeDescription>
+			<CodeProperty name="codeid">122-CONF</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>123-ADMI</CodeID>
+			<CodeDescription>Admin-IT</CodeDescription>
+			<CodeProperty name="codeid">123-ADMI</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>124-CORP</CodeID>
+			<CodeDescription>Corporate Finance Mgr</CodeDescription>
+			<CodeProperty name="codeid">124-CORP</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>corporate finance manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>125-ENGI</CodeID>
+			<CodeDescription>Engineer - Product</CodeDescription>
+			<CodeProperty name="codeid">125-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>product engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>126-TECH</CodeID>
+			<CodeDescription>Technical Writer</CodeDescription>
+			<CodeProperty name="codeid">126-TECH</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>127-HELP</CodeID>
+			<CodeDescription>Helpdesk</CodeDescription>
+			<CodeProperty name="codeid">127-HELP</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>helpdesk operator</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>help desk operator</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>128-ENGI</CodeID>
+			<CodeDescription>Engineer - RF</CodeDescription>
+			<CodeProperty name="codeid">128-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>129-STEN</CodeID>
+			<CodeDescription>Stenographer</CodeDescription>
+			<CodeProperty name="codeid">129-STEN</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>13-COMP</CodeID>
+			<CodeDescription>Compliance Manager</CodeDescription>
+			<CodeProperty name="codeid">13-COMP</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>manager compliance</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>130-FINA</CodeID>
+			<CodeDescription>Finance Manager</CodeDescription>
+			<CodeProperty name="codeid">130-FINA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>accounting manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>finance manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>group finance manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>financial accounting manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>chief accountant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>credit manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>head of accounting &amp; operations-derivatives &amp; fixed income</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>financial manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>131-CAD</CodeID>
+			<CodeDescription>CAD Operator</CodeDescription>
+			<CodeProperty name="codeid">131-CAD</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>cad/cam operator</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>132-HRM</CodeID>
+			<CodeDescription>HR Manager</CodeDescription>
+			<CodeProperty name="codeid">132-HRM</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>human resource manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>133-TELC</CodeID>
+			<CodeDescription>Telco NOC Technician</CodeDescription>
+			<CodeProperty name="codeid">133-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>134-ENGI</CodeID>
+			<CodeDescription>Engineer - Application</CodeDescription>
+			<CodeProperty name="codeid">134-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>application engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>135-MANU</CodeID>
+			<CodeDescription>Manual Labour</CodeDescription>
+			<CodeProperty name="codeid">135-MANU</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>136-TELE</CodeID>
+			<CodeDescription>Telemarketing - Outbound</CodeDescription>
+			<CodeProperty name="codeid">136-TELE</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>137-TEA</CodeID>
+			<CodeDescription>Tea Lady</CodeDescription>
+			<CodeProperty name="codeid">137-TEA</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>138-CUST</CodeID>
+			<CodeDescription>Customer Srv Officer</CodeDescription>
+			<CodeProperty name="codeid">138-CUST</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>customer services representative</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>customer services officer</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>139-ESTI</CodeID>
+			<CodeDescription>Estimator</CodeDescription>
+			<CodeProperty name="codeid">139-ESTI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>14-USHE</CodeID>
+			<CodeDescription>Usher</CodeDescription>
+			<CodeProperty name="codeid">14-USHE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>140-ENGI</CodeID>
+			<CodeDescription>Engineer - Sales</CodeDescription>
+			<CodeProperty name="codeid">140-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>141-CUST</CodeID>
+			<CodeDescription>Customer Relations Exec</CodeDescription>
+			<CodeProperty name="codeid">141-CUST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>customer relations executive</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>142-HELP</CodeID>
+			<CodeDescription>Helpdesk Supervisor</CodeDescription>
+			<CodeProperty name="codeid">142-HELP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>helpdesk manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>143-BOUT</CodeID>
+			<CodeDescription>Boutique Supervisor</CodeDescription>
+			<CodeProperty name="codeid">143-BOUT</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>144-CHAN</CodeID>
+			<CodeDescription>Channel Sales Manager</CodeDescription>
+			<CodeProperty name="codeid">144-CHAN</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>145-CUST</CodeID>
+			<CodeDescription>Customer Srv Rep - Int</CodeDescription>
+			<CodeProperty name="codeid">145-CUST</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>customer services representative</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>146-TECH</CodeID>
+			<CodeDescription>Tech Support Specialist</CodeDescription>
+			<CodeProperty name="codeid">146-TECH</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>technical support specialist</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>147-TELE</CodeID>
+			<CodeDescription>Telesurvey</CodeDescription>
+			<CodeProperty name="codeid">147-TELE</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>148-EDIT</CodeID>
+			<CodeDescription>Editor / Writer</CodeDescription>
+			<CodeProperty name="codeid">148-EDIT</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>editor</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>writer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>149-DATA</CodeID>
+			<CodeDescription>Data Centre Manager</CodeDescription>
+			<CodeProperty name="codeid">149-DATA</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>15-CONT</CodeID>
+			<CodeDescription>Contract Administrator</CodeDescription>
+			<CodeProperty name="codeid">15-CONT</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>150-CALL</CodeID>
+			<CodeDescription>Call Centre Supervisor</CodeDescription>
+			<CodeProperty name="codeid">150-CALL</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>supervisor call centre</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>151-PAYR</CodeID>
+			<CodeDescription>Payroll Officer</CodeDescription>
+			<CodeProperty name="codeid">151-PAYR</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>payroll officer</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>payroll manager</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>152-ITS</CodeID>
+			<CodeDescription>IT Sales Manager</CodeDescription>
+			<CodeProperty name="codeid">152-ITS</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>153-ENGI</CodeID>
+			<CodeDescription>Engineer - Service</CodeDescription>
+			<CodeProperty name="codeid">153-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>service engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>154-NETW</CodeID>
+			<CodeDescription>Network Engineer</CodeDescription>
+			<CodeProperty name="codeid">154-NETW</CodeProperty>
+			<CodeProperty name="industry">IT Services;xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>155-SYST</CodeID>
+			<CodeDescription>Systems Test Manager</CodeDescription>
+			<CodeProperty name="codeid">155-SYST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>systems manager</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>156-FRES</CodeID>
+			<CodeDescription>Fresh</CodeDescription>
+			<CodeProperty name="codeid">156-FRES</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>157-FINA</CodeID>
+			<CodeDescription>Financial Analyst</CodeDescription>
+			<CodeProperty name="codeid">157-FINA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>financial analysis</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>158-TECH</CodeID>
+			<CodeDescription>Technician - CNC</CodeDescription>
+			<CodeProperty name="codeid">158-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>CNC</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>159-TRAD</CodeID>
+			<CodeDescription>Trade Finance Manager</CodeDescription>
+			<CodeProperty name="codeid">159-TRAD</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>16-TELC</CodeID>
+			<CodeDescription>Telco RF Engineer</CodeDescription>
+			<CodeProperty name="codeid">16-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>160-QUAN</CodeID>
+			<CodeDescription>Quantity Surveyor</CodeDescription>
+			<CodeProperty name="codeid">160-QUAN</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>161-TELC</CodeID>
+			<CodeDescription>Telco Loop Capacity Mgr</CodeDescription>
+			<CodeProperty name="codeid">161-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>162-CRED</CodeID>
+			<CodeDescription>Credit Control</CodeDescription>
+			<CodeProperty name="codeid">162-CRED</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>credit control clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>credit control supervisor</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>credit control</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>assistant credit controller</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>credit control manager</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>senior credit controller</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>163-GROU</CodeID>
+			<CodeDescription>Group Supervisor</CodeDescription>
+			<CodeProperty name="codeid">163-GROU</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>164-DESI</CodeID>
+			<CodeDescription>Designer</CodeDescription>
+			<CodeProperty name="codeid">164-DESI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>165-COMP</CodeID>
+			<CodeDescription>Computer Programmer</CodeDescription>
+			<CodeProperty name="codeid">165-COMP</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>programmer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>166-SALE</CodeID>
+			<CodeDescription>Sales Assistant</CodeDescription>
+			<CodeProperty name="codeid">166-SALE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales assistant</InstanceDescription>
+					<InstanceProperty name="confidence">57.4074074074074</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>167-ASST</CodeID>
+			<CodeDescription>Asstn Accountant</CodeDescription>
+			<CodeProperty name="codeid">167-ASST</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>accountancy assistant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>assistant accountant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>168-COMM</CodeID>
+			<CodeDescription>Communciations Engineer</CodeDescription>
+			<CodeProperty name="codeid">168-COMM</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>169-RND</CodeID>
+			<CodeDescription>Research  and Development</CodeDescription>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>researcher</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>developer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>17-PROJ</CodeID>
+			<CodeDescription>Project Engineer</CodeDescription>
+			<CodeProperty name="codeid">17-PROJ</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>170-ITT</CodeID>
+			<CodeDescription>IT Technician</CodeDescription>
+			<CodeProperty name="codeid">170-ITT</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>it technician</InstanceDescription>
+					<InstanceProperty name="confidence">58.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>171-ZMAR</CodeID>
+			<CodeDescription>zMarketing</CodeDescription>
+			<CodeProperty name="codeid">171-ZMAR</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>172-TECH</CodeID>
+			<CodeDescription>Technician - PC</CodeDescription>
+			<CodeProperty name="codeid">172-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>173-WEB</CodeID>
+			<CodeDescription>Web Developer</CodeDescription>
+			<CodeProperty name="codeid">173-WEB</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>web designer</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>executive-web development</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>web developer</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>internet developer</InstanceDescription>
+					<InstanceProperty name="confidence">58.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>174-SURV</CodeID>
+			<CodeDescription>Surveyor</CodeDescription>
+			<CodeProperty name="codeid">174-SURV</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>175-WAP</CodeID>
+			<CodeDescription>WAP Service Engineer</CodeDescription>
+			<CodeProperty name="codeid">175-WAP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>176-PLAN</CodeID>
+			<CodeDescription>Planner</CodeDescription>
+			<CodeProperty name="codeid">176-PLAN</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>177-CUST</CodeID>
+			<CodeDescription>Customer Support Engr</CodeDescription>
+			<CodeProperty name="codeid">177-CUST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>customer support engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>178-ORDE</CodeID>
+			<CodeDescription>Order Administrator</CodeDescription>
+			<CodeProperty name="codeid">178-ORDE</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>179-STOR</CodeID>
+			<CodeDescription>Storekeeper</CodeDescription>
+			<CodeProperty name="codeid">179-STOR</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>18-ENGI</CodeID>
+			<CodeDescription>Engineer - PCB/PCBA</CodeDescription>
+			<CodeProperty name="codeid">18-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>180-EVEN</CodeID>
+			<CodeDescription>Event Coordinator</CodeDescription>
+			<CodeProperty name="codeid">180-EVEN</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>181-TRAN</CodeID>
+			<CodeDescription>Translator/Interpreter</CodeDescription>
+			<CodeProperty name="codeid">181-TRAN</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>translator</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>interpreter</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>182-TECH</CodeID>
+			<CodeDescription>Technician - Lab</CodeDescription>
+			<CodeProperty name="codeid">182-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>lab technician</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>laboratory analyst</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>183-ACC</CodeID>
+			<CodeDescription>Acc Support Specialist</CodeDescription>
+			<CodeProperty name="codeid">183-ACC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>184-TELE</CodeID>
+			<CodeDescription>Telemarketing Manager</CodeDescription>
+			<CodeProperty name="codeid">184-TELE</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>185-ENGI</CodeID>
+			<CodeDescription>Engineer - Industrial</CodeDescription>
+			<CodeProperty name="codeid">185-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>industrial engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>186-CONS</CodeID>
+			<CodeDescription>Consultant</CodeDescription>
+			<CodeProperty name="codeid">186-CONS</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>consulting</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>junior consultant</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>sales &amp; marketing consultant</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>support consultant</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>senior consultant</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>managing consultant</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>applications consultant</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>187-APPL</CodeID>
+			<CodeDescription>Application Developer</CodeDescription>
+			<CodeProperty name="codeid">187-APPL</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>188-HELP</CodeID>
+			<CodeDescription>Helpdesk Specialist Supvr</CodeDescription>
+			<CodeProperty name="codeid">188-HELP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>helpdesk specialist supervisor</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>189-PROJ</CodeID>
+			<CodeDescription>Project Executive</CodeDescription>
+			<CodeProperty name="codeid">189-PROJ</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>19-TREA</CodeID>
+			<CodeDescription>Treasury Executive</CodeDescription>
+			<CodeProperty name="codeid">19-TREA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>190-CALL</CodeID>
+			<CodeDescription>Call Centre</CodeDescription>
+			<CodeProperty name="codeid">190-CALL</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>191-TECH</CodeID>
+			<CodeDescription>Technician - AV</CodeDescription>
+			<CodeProperty name="codeid">191-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>192-ITA</CodeID>
+			<CodeDescription>IT Analyst</CodeDescription>
+			<CodeProperty name="codeid">192-ITA</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>data analyst</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>network support analyst</InstanceDescription>
+					<InstanceProperty name="confidence">58.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>IT analist</InstanceDescription>
+					<InstanceProperty name="confidence">58.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>193-TELE</CodeID>
+			<CodeDescription>Telemarketing - Inbound</CodeDescription>
+			<CodeProperty name="codeid">193-TELE</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>194-TRAN</CodeID>
+			<CodeDescription>Transcriber</CodeDescription>
+			<CodeProperty name="codeid">194-TRAN</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>195-MARK</CodeID>
+			<CodeDescription>Marketing Manager</CodeDescription>
+			<CodeProperty name="codeid">195-MARK</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>196-ITD</CodeID>
+			<CodeDescription>IT Director</CodeDescription>
+			<CodeProperty name="codeid">196-ITD</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>197-DRIV</CodeID>
+			<CodeDescription>Driver - Chauffeur</CodeDescription>
+			<CodeProperty name="codeid">197-DRIV</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>driver</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>chauffeur</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>198-REGI</CodeID>
+			<CodeDescription>Regional Sales Mgr</CodeDescription>
+			<CodeProperty name="codeid">198-REGI</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>regional sales manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>199-TECH</CodeID>
+			<CodeDescription>Technician - Test/Debug</CodeDescription>
+			<CodeProperty name="codeid">199-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>2-REGI</CodeID>
+			<CodeDescription>Regional Marketing Mgr</CodeDescription>
+			<CodeProperty name="codeid">2-REGI</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>regional marketing manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>20-PACK</CodeID>
+			<CodeDescription>Packer</CodeDescription>
+			<CodeProperty name="codeid">20-PACK</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>200-TECH</CodeID>
+			<CodeDescription>Technician - QA</CodeDescription>
+			<CodeProperty name="codeid">200-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>qa technician</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>201-BUSI</CodeID>
+			<CodeDescription>Business Analyst</CodeDescription>
+			<CodeProperty name="codeid">201-BUSI</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal;IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>202-SYST</CodeID>
+			<CodeDescription>Systems Analyst</CodeDescription>
+			<CodeProperty name="codeid">202-SYST</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>203-LORR</CodeID>
+			<CodeDescription>Lorry Driver</CodeDescription>
+			<CodeProperty name="codeid">203-LORR</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>204-PURC</CodeID>
+			<CodeDescription>Purchasing Officer</CodeDescription>
+			<CodeProperty name="codeid">204-PURC</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>205-ENGI</CodeID>
+			<CodeDescription>Engineer - Electronic</CodeDescription>
+			<CodeProperty name="codeid">205-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>electro engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>206-SITE</CodeID>
+			<CodeDescription>Site Supervisor</CodeDescription>
+			<CodeProperty name="codeid">206-SITE</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>207-ASST</CodeID>
+			<CodeDescription>Asst QA Engineer</CodeDescription>
+			<CodeProperty name="codeid">207-ASST</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>assistent QA engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>208-PROJ</CodeID>
+			<CodeDescription>Project Assistant</CodeDescription>
+			<CodeProperty name="codeid">208-PROJ</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>209-BUYE</CodeID>
+			<CodeDescription>Buyers</CodeDescription>
+			<CodeProperty name="codeid">209-BUYE</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>buyer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>21-MARK</CodeID>
+			<CodeDescription>Marketing Comm Mgr</CodeDescription>
+			<CodeProperty name="codeid">21-MARK</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>marketing communication manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>210-INTE</CodeID>
+			<CodeDescription>Internet Specialist</CodeDescription>
+			<CodeProperty name="codeid">210-INTE</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>211-DIRE</CodeID>
+			<CodeDescription>Director</CodeDescription>
+			<CodeProperty name="codeid">211-DIRE</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>managing director</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>technical director</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>director</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>212-PROM</CodeID>
+			<CodeDescription>Promoters</CodeDescription>
+			<CodeProperty name="codeid">212-PROM</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>213-SHIP</CodeID>
+			<CodeDescription>Shipping Co-ordinator</CodeDescription>
+			<CodeProperty name="codeid">213-SHIP</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>214-PCB</CodeID>
+			<CodeDescription>PCB Designer</CodeDescription>
+			<CodeProperty name="codeid">214-PCB</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>215-SETT</CodeID>
+			<CodeDescription>Settlements Manager</CodeDescription>
+			<CodeProperty name="codeid">215-SETT</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>216-OFFI</CodeID>
+			<CodeDescription>Office Manager</CodeDescription>
+			<CodeProperty name="codeid">216-OFFI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>accounts office manager</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>office manager</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>217-TECH</CodeID>
+			<CodeDescription>Technician</CodeDescription>
+			<CodeProperty name="codeid">217-TECH</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>218-CHEM</CodeID>
+			<CodeDescription>Chemist</CodeDescription>
+			<CodeProperty name="codeid">218-CHEM</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>219-TRAI</CodeID>
+			<CodeDescription>Trainer</CodeDescription>
+			<CodeProperty name="codeid">219-TRAI</CodeProperty>
+			<CodeProperty name="industry">Office Services;xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>22-CAMP</CodeID>
+			<CodeDescription>Campaign Manager</CodeDescription>
+			<CodeProperty name="codeid">22-CAMP</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>220-INTE</CodeID>
+			<CodeDescription>Internal Audit</CodeDescription>
+			<CodeProperty name="codeid">220-INTE</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>senior internal auditor</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>internal audit</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>internal audit manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>internal auditor</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>221-TYPI</CodeID>
+			<CodeDescription>Typist</CodeDescription>
+			<CodeProperty name="codeid">221-TYPI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>222-HELP</CodeID>
+			<CodeDescription>Helpdesk Specialist</CodeDescription>
+			<CodeProperty name="codeid">222-HELP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>223-LIBR</CodeID>
+			<CodeDescription>Library Assistant</CodeDescription>
+			<CodeProperty name="codeid">223-LIBR</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>library assistant</InstanceDescription>
+					<InstanceProperty name="confidence">56.0606060606061</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>224-LAWY</CodeID>
+			<CodeDescription>Lawyer</CodeDescription>
+			<CodeProperty name="codeid">224-LAWY</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>225-WAP</CodeID>
+			<CodeDescription>WAP Engineer</CodeDescription>
+			<CodeProperty name="codeid">225-WAP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>226-MANA</CodeID>
+			<CodeDescription>Management Accountant</CodeDescription>
+			<CodeProperty name="codeid">226-MANA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>227-ITS</CodeID>
+			<CodeDescription>IT Security</CodeDescription>
+			<CodeProperty name="codeid">227-ITS</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>228-TREA</CodeID>
+			<CodeDescription>Treasury Accountant</CodeDescription>
+			<CodeProperty name="codeid">228-TREA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>229-TELC</CodeID>
+			<CodeDescription>Telco OSP Technician</CodeDescription>
+			<CodeProperty name="codeid">229-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>23-FACI</CodeID>
+			<CodeDescription>Facilities Specialist</CodeDescription>
+			<CodeProperty name="codeid">23-FACI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>230-TECH</CodeID>
+			<CodeDescription>Technician - Aerospace</CodeDescription>
+			<CodeProperty name="codeid">230-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>231-ACCO</CodeID>
+			<CodeDescription>Accounts Assistant</CodeDescription>
+			<CodeProperty name="codeid">231-ACCO</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>assistant management accountant</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>assistant financial accountant</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>assistant works accountant</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>assistant accountant p/t</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>accounts &amp; administration officer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>financial accounts assistant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>accounts assistant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>temporary accounts assistant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>senior accounts assistant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>accounts department</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>management accounts assistant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>232-TECH</CodeID>
+			<CodeDescription>Technical Manager</CodeDescription>
+			<CodeProperty name="codeid">232-TECH</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>233-ENGI</CodeID>
+			<CodeDescription>Engineer - Network</CodeDescription>
+			<CodeProperty name="codeid">233-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>network engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>234-DRAF</CodeID>
+			<CodeDescription>Draftsmen</CodeDescription>
+			<CodeProperty name="codeid">234-DRAF</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>235-ENGI</CodeID>
+			<CodeDescription>Engineer - Electrical</CodeDescription>
+			<CodeProperty name="codeid">235-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>electrical engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>236-COMP</CodeID>
+			<CodeDescription>Compliance Officer</CodeDescription>
+			<CodeProperty name="codeid">236-COMP</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>237-HRA</CodeID>
+			<CodeDescription>HR Asst</CodeDescription>
+			<CodeProperty name="codeid">237-HRA</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>HR assistant</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>human resource assistant</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>238-SALE</CodeID>
+			<CodeDescription>Sales Coordinator</CodeDescription>
+			<CodeProperty name="codeid">238-SALE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>239-TECH</CodeID>
+			<CodeDescription>Technician - Air Con</CodeDescription>
+			<CodeProperty name="codeid">239-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>24-SALE</CodeID>
+			<CodeDescription>Sales Manager</CodeDescription>
+			<CodeProperty name="codeid">24-SALE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>general sales manager</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>240-CLER</CodeID>
+			<CodeDescription>Clerk-Accounting</CodeDescription>
+			<CodeProperty name="codeid">240-CLER</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>accounts payable clerk</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>account clerk</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>accounts clerk</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>241-PROD</CodeID>
+			<CodeDescription>Production Supervisor</CodeDescription>
+			<CodeProperty name="codeid">241-PROD</CodeProperty>
+			<CodeProperty name="industry">Industrial;Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>242-REGI</CodeID>
+			<CodeDescription>Regional Manager</CodeDescription>
+			<CodeProperty name="codeid">242-REGI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>regional manager</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>243-MARK</CodeID>
+			<CodeDescription>Marketing Research</CodeDescription>
+			<CodeProperty name="codeid">243-MARK</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>244-ENGI</CodeID>
+			<CodeDescription>Engineer - Chemical</CodeDescription>
+			<CodeProperty name="codeid">244-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>chemical engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>245-SENI</CodeID>
+			<CodeDescription>Senior Engrg Asst</CodeDescription>
+			<CodeProperty name="codeid">245-SENI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>senior engineer assistant</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>246-CUST</CodeID>
+			<CodeDescription>Customer Srv Rep - Basic</CodeDescription>
+			<CodeProperty name="codeid">246-CUST</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>customer service representative (basic)</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>247-ENGI</CodeID>
+			<CodeDescription>Engineer -Civil/Structure</CodeDescription>
+			<CodeProperty name="codeid">247-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>civil engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>248-ENGI</CodeID>
+			<CodeDescription>Engineer - R &amp; D</CodeDescription>
+			<CodeProperty name="codeid">248-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>249-ENGI</CodeID>
+			<CodeDescription>Engineer Assistant</CodeDescription>
+			<CodeProperty name="codeid">249-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>25-LICE</CodeID>
+			<CodeDescription>Licensing Manager</CodeDescription>
+			<CodeProperty name="codeid">25-LICE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>250-RESE</CodeID>
+			<CodeDescription>Researcher</CodeDescription>
+			<CodeProperty name="codeid">250-RESE</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>research fellow</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>251-FIEL</CodeID>
+			<CodeDescription>Field Engineer</CodeDescription>
+			<CodeProperty name="codeid">251-FIEL</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>252-SHIP</CodeID>
+			<CodeDescription>Shipping Exe/Superv</CodeDescription>
+			<CodeProperty name="codeid">252-SHIP</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>shipping executive</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>shipping supervisor</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>253-TECH</CodeID>
+			<CodeDescription>Technician - Process</CodeDescription>
+			<CodeProperty name="codeid">253-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>process technician</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>254-SALE</CodeID>
+			<CodeDescription>Sales Supervisor</CodeDescription>
+			<CodeProperty name="codeid">254-SALE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales advisor</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>255-DESK</CodeID>
+			<CodeDescription>Desktop Publisher</CodeDescription>
+			<CodeProperty name="codeid">255-DESK</CodeProperty>
+			<CodeProperty name="industry">Office Services;Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>256-CORP</CodeID>
+			<CodeDescription>Corporate Finance Exec</CodeDescription>
+			<CodeProperty name="codeid">256-CORP</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>257-ACCO</CodeID>
+			<CodeDescription>Account Manager</CodeDescription>
+			<CodeProperty name="codeid">257-ACCO</CodeProperty>
+			<CodeProperty name="industry">IT Services;Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>accounts manager</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>corporate account manager</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>national account manager</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>258-ENGI</CodeID>
+			<CodeDescription>Engineer - Maintenance</CodeDescription>
+			<CodeProperty name="codeid">258-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>electrical / mechanical maintenance engineer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>259-CEO</CodeID>
+			<CodeDescription>CEO</CodeDescription>
+			<CodeProperty name="codeid">259-CEO</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>26-INVE</CodeID>
+			<CodeDescription>Inventory Worker</CodeDescription>
+			<CodeProperty name="codeid">26-INVE</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>260-WARE</CodeID>
+			<CodeDescription>Warehouse Manager</CodeDescription>
+			<CodeProperty name="codeid">260-WARE</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>warehouse operative</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>261-FORE</CodeID>
+			<CodeDescription>Foreigners</CodeDescription>
+			<CodeProperty name="codeid">261-FORE</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>262-ENGI</CodeID>
+			<CodeDescription>Engineer - Test</CodeDescription>
+			<CodeProperty name="codeid">262-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>test engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>263-LEGA</CodeID>
+			<CodeDescription>Legal Secretary</CodeDescription>
+			<CodeProperty name="codeid">263-LEGA</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>264-BRAN</CodeID>
+			<CodeDescription>Brand Manager</CodeDescription>
+			<CodeProperty name="codeid">264-BRAN</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>265-FORK</CodeID>
+			<CodeDescription>Forklift Driver</CodeDescription>
+			<CodeProperty name="codeid">265-FORK</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>266-MERC</CodeID>
+			<CodeDescription>Merchandiser</CodeDescription>
+			<CodeProperty name="codeid">266-MERC</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>267-CUST</CodeID>
+			<CodeDescription>Customer Relations Mgr</CodeDescription>
+			<CodeProperty name="codeid">267-CUST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>268-PUBL</CodeID>
+			<CodeDescription>Public Relations Ast/Ofr</CodeDescription>
+			<CodeProperty name="codeid">268-PUBL</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>269-ITA</CodeID>
+			<CodeDescription>IT Auditor</CodeDescription>
+			<CodeProperty name="codeid">269-ITA</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>27-SALE</CodeID>
+			<CodeDescription>Sales Engineer</CodeDescription>
+			<CodeProperty name="codeid">27-SALE</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>270-TELC</CodeID>
+			<CodeDescription>Telco R&amp;D Engineer</CodeDescription>
+			<CodeProperty name="codeid">270-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>271-MARK</CodeID>
+			<CodeDescription>Marketing Comm Exec</CodeDescription>
+			<CodeProperty name="codeid">271-MARK</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>272-SYST</CodeID>
+			<CodeDescription>System Support</CodeDescription>
+			<CodeProperty name="codeid">272-SYST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>systems support engineer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>system support engineer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>273-FRES</CodeID>
+			<CodeDescription>Freshies</CodeDescription>
+			<CodeProperty name="codeid">273-FRES</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>274-WEB</CodeID>
+			<CodeDescription>Web Administrator</CodeDescription>
+			<CodeProperty name="codeid">274-WEB</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>275-TECH</CodeID>
+			<CodeDescription>Technology Assistant</CodeDescription>
+			<CodeProperty name="codeid">275-TECH</CodeProperty>
+			<CodeProperty name="industry">IT Services;xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>technical assistant</InstanceDescription>
+					<InstanceProperty name="confidence">56.0606060606061</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>276-TECH</CodeID>
+			<CodeDescription>Technical Support-HW/SW</CodeDescription>
+			<CodeProperty name="codeid">276-TECH</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>277-DATA</CodeID>
+			<CodeDescription>Database Sys Engineer</CodeDescription>
+			<CodeProperty name="codeid">277-DATA</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>278-HAND</CodeID>
+			<CodeDescription>Handyman</CodeDescription>
+			<CodeProperty name="codeid">278-HAND</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>279-ITM</CodeID>
+			<CodeDescription>IT Manager</CodeDescription>
+			<CodeProperty name="codeid">279-ITM</CodeProperty>
+			<CodeProperty name="industry">IT Services;xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>28-PRE</CodeID>
+			<CodeDescription>Pre-Sales Consultant</CodeDescription>
+			<CodeProperty name="codeid">28-PRE</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>280-AUDI</CodeID>
+			<CodeDescription>Audit Manager</CodeDescription>
+			<CodeProperty name="codeid">280-AUDI</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>audit manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>281-DRAU</CodeID>
+			<CodeDescription>Draughtmen</CodeDescription>
+			<CodeProperty name="codeid">281-DRAU</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>282-CORP</CodeID>
+			<CodeDescription>Corporate Comm Exec</CodeDescription>
+			<CodeProperty name="codeid">282-CORP</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>corporate communications executive</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>283-CORP</CodeID>
+			<CodeDescription>Corporate Comm Mgr</CodeDescription>
+			<CodeProperty name="codeid">283-CORP</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>corporate communications manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>284-LICE</CodeID>
+			<CodeDescription>Licensing Assistant</CodeDescription>
+			<CodeProperty name="codeid">284-LICE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>285-MERC</CodeID>
+			<CodeDescription>Merchandising Clerk</CodeDescription>
+			<CodeProperty name="codeid">285-MERC</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>286-CFO</CodeID>
+			<CodeDescription>CFO</CodeDescription>
+			<CodeProperty name="codeid">286-CFO</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>287-PUBL</CodeID>
+			<CodeDescription>Public Relations Mgr</CodeDescription>
+			<CodeProperty name="codeid">287-PUBL</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>public relations manager</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>PR manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>288-PARA</CodeID>
+			<CodeDescription>Paralegal</CodeDescription>
+			<CodeProperty name="codeid">288-PARA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>289-TELC</CodeID>
+			<CodeDescription>Telco Project Manager</CodeDescription>
+			<CodeProperty name="codeid">289-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>29-SALE</CodeID>
+			<CodeDescription>Sales Officer-Telesales</CodeDescription>
+			<CodeProperty name="codeid">29-SALE</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>290-SOFT</CodeID>
+			<CodeDescription>Software Engineer</CodeDescription>
+			<CodeProperty name="codeid">290-SOFT</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>software engineer</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>291-SYST</CodeID>
+			<CodeDescription>System Engineer</CodeDescription>
+			<CodeProperty name="codeid">291-SYST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>292-RETA</CodeID>
+			<CodeDescription>Retail Assistant</CodeDescription>
+			<CodeProperty name="codeid">292-RETA</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>retail assistant</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>293-RESE</CodeID>
+			<CodeDescription>Research Analyst</CodeDescription>
+			<CodeProperty name="codeid">293-RESE</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>294-ASSE</CodeID>
+			<CodeDescription>Assemble Specialist</CodeDescription>
+			<CodeProperty name="codeid">294-ASSE</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>295-CUST</CodeID>
+			<CodeDescription>Customer Srv Manager</CodeDescription>
+			<CodeProperty name="codeid">295-CUST</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>customer services manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>296-TELC</CodeID>
+			<CodeDescription>Telco Commissioner/Tester</CodeDescription>
+			<CodeProperty name="codeid">296-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>297-ADMI</CodeID>
+			<CodeDescription>Administrator</CodeDescription>
+			<CodeProperty name="codeid">297-ADMI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales administrator</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>office administrator</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>298-ENGI</CodeID>
+			<CodeDescription>Engineer - IT</CodeDescription>
+			<CodeProperty name="codeid">298-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>299-TECH</CodeID>
+			<CodeDescription>Technician - Electrical</CodeDescription>
+			<CodeProperty name="codeid">299-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>electrical technician</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>3-DISP</CodeID>
+			<CodeDescription>Dispatch Driver</CodeDescription>
+			<CodeProperty name="codeid">3-DISP</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>30-CONS</CodeID>
+			<CodeDescription>Consultant-Business</CodeDescription>
+			<CodeProperty name="codeid">30-CONS</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>business consultant</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>300-ARCH</CodeID>
+			<CodeDescription>Architecture Manager</CodeDescription>
+			<CodeProperty name="codeid">300-ARCH</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>301-ASSI</CodeID>
+			<CodeDescription>Assistant Engineer</CodeDescription>
+			<CodeProperty name="codeid">301-ASSI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>302-OPER</CodeID>
+			<CodeDescription>Operations Executive</CodeDescription>
+			<CodeProperty name="codeid">302-OPER</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>303-CONS</CodeID>
+			<CodeDescription>Consultant-Technical</CodeDescription>
+			<CodeProperty name="codeid">303-CONS</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>304-QUAL</CodeID>
+			<CodeDescription>Quality Controller</CodeDescription>
+			<CodeProperty name="codeid">304-QUAL</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>305-SALE</CodeID>
+			<CodeDescription>Sales &amp; Marketing Manager</CodeDescription>
+			<CodeProperty name="codeid">305-SALE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales &amp; marketing manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>306-MIS</CodeID>
+			<CodeDescription>MIS Manager</CodeDescription>
+			<CodeProperty name="codeid">306-MIS</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>307-SMT</CodeID>
+			<CodeDescription>SMT Engrg Asst</CodeDescription>
+			<CodeProperty name="codeid">307-SMT</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>308-ENGI</CodeID>
+			<CodeDescription>Engineer - MFG</CodeDescription>
+			<CodeProperty name="codeid">308-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>309-EXHI</CodeID>
+			<CodeDescription>Exhibition Assistant</CodeDescription>
+			<CodeProperty name="codeid">309-EXHI</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>31-PROJ</CodeID>
+			<CodeDescription>Project Administrator</CodeDescription>
+			<CodeProperty name="codeid">31-PROJ</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>project administration</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>310-BILL</CodeID>
+			<CodeDescription>Billing Officer</CodeDescription>
+			<CodeProperty name="codeid">310-BILL</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>311-BANK</CodeID>
+			<CodeDescription>Bank Teller</CodeDescription>
+			<CodeProperty name="codeid">311-BANK</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>312-MACH</CodeID>
+			<CodeDescription>Machinist</CodeDescription>
+			<CodeProperty name="codeid">312-MACH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>313-PROJ</CodeID>
+			<CodeDescription>Project Manager</CodeDescription>
+			<CodeProperty name="codeid">313-PROJ</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal;IT Services;Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>projects manager</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>project leader</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>project co-ordinator</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>314-ENGI</CodeID>
+			<CodeDescription>Engineer - Customer Srv</CodeDescription>
+			<CodeProperty name="codeid">314-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>315-OPER</CodeID>
+			<CodeDescription>Operations Assistant</CodeDescription>
+			<CodeProperty name="codeid">315-OPER</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>operations assistant</InstanceDescription>
+					<InstanceProperty name="confidence">53.030303030303</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>316-SYST</CodeID>
+			<CodeDescription>System Planner</CodeDescription>
+			<CodeProperty name="codeid">316-SYST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>317-OFFI</CodeID>
+			<CodeDescription>Office Assistant</CodeDescription>
+			<CodeProperty name="codeid">317-OFFI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>drawing office assistant</InstanceDescription>
+					<InstanceProperty name="confidence">56.0606060606061</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>318-ASSO</CodeID>
+			<CodeDescription>Associate Qly Engineer</CodeDescription>
+			<CodeProperty name="codeid">318-ASSO</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>319-ITC</CodeID>
+			<CodeDescription>IT Consultants</CodeDescription>
+			<CodeProperty name="codeid">319-ITC</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>32-ACCO</CodeID>
+			<CodeDescription>Account Executive</CodeDescription>
+			<CodeProperty name="codeid">32-ACCO</CodeProperty>
+			<CodeProperty name="industry">IT Services;Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>320-TECH</CodeID>
+			<CodeDescription>Technical Support-Network</CodeDescription>
+			<CodeProperty name="codeid">320-TECH</CodeProperty>
+			<CodeProperty name="industry">xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>321-TAX</CodeID>
+			<CodeDescription>Tax/Legal Advisor</CodeDescription>
+			<CodeProperty name="codeid">321-TAX</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>tax advisor</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>legal advisor</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>322-ITS</CodeID>
+			<CodeDescription>IT Sales Executive</CodeDescription>
+			<CodeProperty name="codeid">322-ITS</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>323-WEB</CodeID>
+			<CodeDescription>Web Designer</CodeDescription>
+			<CodeProperty name="codeid">323-WEB</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>324-TECH</CodeID>
+			<CodeDescription>Technician - Maint</CodeDescription>
+			<CodeProperty name="codeid">324-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>325-MACH</CodeID>
+			<CodeDescription>Machine Operator</CodeDescription>
+			<CodeProperty name="codeid">325-MACH</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>326-STAT</CodeID>
+			<CodeDescription>Statistician</CodeDescription>
+			<CodeProperty name="codeid">326-STAT</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>327-TELC</CodeID>
+			<CodeDescription>Telco Builder/Installer</CodeDescription>
+			<CodeProperty name="codeid">327-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>328-TELC</CodeID>
+			<CodeDescription>Telco OSP Engineer</CodeDescription>
+			<CodeProperty name="codeid">328-TELC</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>329-RETA</CodeID>
+			<CodeDescription>Retail Supervisor</CodeDescription>
+			<CodeProperty name="codeid">329-RETA</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>33-MARK</CodeID>
+			<CodeDescription>Marketing Representative</CodeDescription>
+			<CodeProperty name="codeid">33-MARK</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>330-LIGH</CodeID>
+			<CodeDescription>Lighting Designer</CodeDescription>
+			<CodeProperty name="codeid">330-LIGH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>331-FUND</CodeID>
+			<CodeDescription>Fund Manager</CodeDescription>
+			<CodeProperty name="codeid">331-FUND</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>332-ITS</CodeID>
+			<CodeDescription>IT Solutions Specialist</CodeDescription>
+			<CodeProperty name="codeid">332-ITS</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>333-DESI</CodeID>
+			<CodeDescription>Designer-Graphic/Interior</CodeDescription>
+			<CodeProperty name="codeid">333-DESI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>334-SALE</CodeID>
+			<CodeDescription>Sales Director</CodeDescription>
+			<CodeProperty name="codeid">334-SALE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>interim director of sales &amp; marketing</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>335-GENE</CodeID>
+			<CodeDescription>General Manager / MD</CodeDescription>
+			<CodeProperty name="codeid">335-GENE</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>general manager</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>managing director</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>MD</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>336-ENGI</CodeID>
+			<CodeDescription>Engineer - Process</CodeDescription>
+			<CodeProperty name="codeid">336-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>process engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>337-ENGI</CodeID>
+			<CodeDescription>Engineer - Mechanical</CodeDescription>
+			<CodeProperty name="codeid">337-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>mechanical engineer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>338-PURC</CodeID>
+			<CodeDescription>Purchasing Asst</CodeDescription>
+			<CodeProperty name="codeid">338-PURC</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>purchasing assistant</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>339-MATE</CodeID>
+			<CodeDescription>Material Handler</CodeDescription>
+			<CodeProperty name="codeid">339-MATE</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>34-DATA</CodeID>
+			<CodeDescription>Data Administrator</CodeDescription>
+			<CodeProperty name="codeid">34-DATA</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>340-OPER</CodeID>
+			<CodeDescription>Operations Specialist</CodeDescription>
+			<CodeProperty name="codeid">340-OPER</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>341-ELEC</CodeID>
+			<CodeDescription>Electrician</CodeDescription>
+			<CodeProperty name="codeid">341-ELEC</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>342-MATE</CodeID>
+			<CodeDescription>Material Planner</CodeDescription>
+			<CodeProperty name="codeid">342-MATE</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>343-PURC</CodeID>
+			<CodeDescription>Purchasing Manager</CodeDescription>
+			<CodeProperty name="codeid">343-PURC</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>344-SALE</CodeID>
+			<CodeDescription>Sales Consultant</CodeDescription>
+			<CodeProperty name="codeid">344-SALE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales consultant</InstanceDescription>
+					<InstanceProperty name="confidence">57.4074074074074</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>345-DATA</CodeID>
+			<CodeDescription>Database Administrator</CodeDescription>
+			<CodeProperty name="codeid">345-DATA</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>DB administrator</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>database admin</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>346-LOGI</CodeID>
+			<CodeDescription>Logistic Manager</CodeDescription>
+			<CodeProperty name="codeid">346-LOGI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>logistics manager</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>347-ITP</CodeID>
+			<CodeDescription>IT Procurement</CodeDescription>
+			<CodeProperty name="codeid">347-ITP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>348-EXEC</CodeID>
+			<CodeDescription>Exec Secretary/PA</CodeDescription>
+			<CodeProperty name="codeid">348-EXEC</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>executive secretary</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>personal assistant</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>pa to chief executive</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>personal assistant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>p.a.</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>pa</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>pa to managing director</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>349-RECE</CodeID>
+			<CodeDescription>Receptionist</CodeDescription>
+			<CodeProperty name="codeid">349-RECE</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>receptionist / administrator</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>reception</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>receptionist/typist</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>switchboard operator</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>receptionist</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>telephonist</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>medical receptionist</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>35-TREA</CodeID>
+			<CodeDescription>Treasury Assistant</CodeDescription>
+			<CodeProperty name="codeid">35-TREA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>treasury assistant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>treasury operations accounts assistant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>350-AUDI</CodeID>
+			<CodeDescription>Auditor</CodeDescription>
+			<CodeProperty name="codeid">350-AUDI</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>auditor</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>audit assistant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>senior auditor</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>audit assistant</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>351-PUBL</CodeID>
+			<CodeDescription>Public Relations Exec</CodeDescription>
+			<CodeProperty name="codeid">351-PUBL</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>PR executive</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>public relations executive</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>36-COMP</CodeID>
+			<CodeDescription>Computer Operator</CodeDescription>
+			<CodeProperty name="codeid">36-COMP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>37-LOGI</CodeID>
+			<CodeDescription>Logistics Executive</CodeDescription>
+			<CodeProperty name="codeid">37-LOGI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>38-DESI</CodeID>
+			<CodeDescription>Designer-Fashion</CodeDescription>
+			<CodeProperty name="codeid">38-DESI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>fashion designer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>39-TAX</CodeID>
+			<CodeDescription>Tax Accountant</CodeDescription>
+			<CodeProperty name="codeid">39-TAX</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>4-HRO</CodeID>
+			<CodeDescription>HR Officer</CodeDescription>
+			<CodeProperty name="codeid">4-HRO</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>human resource officer</InstanceDescription>
+					<InstanceProperty name="confidence">58.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>HR manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>40-PRIV</CodeID>
+			<CodeDescription>Private Banker</CodeDescription>
+			<CodeProperty name="codeid">40-PRIV</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>41-FINA</CodeID>
+			<CodeDescription>Financial Controller</CodeDescription>
+			<CodeProperty name="codeid">41-FINA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>group financial controller</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>european financial controller</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>uk financial controller</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>42-TECH</CodeID>
+			<CodeDescription>Technician - Mechanical</CodeDescription>
+			<CodeProperty name="codeid">42-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>43-ARCH</CodeID>
+			<CodeDescription>Architect</CodeDescription>
+			<CodeProperty name="codeid">43-ARCH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>44-VOIP</CodeID>
+			<CodeDescription>VoIP System Engineer</CodeDescription>
+			<CodeProperty name="codeid">44-VOIP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>45-LIBR</CodeID>
+			<CodeDescription>Librarian</CodeDescription>
+			<CodeProperty name="codeid">45-LIBR</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>46-TECH</CodeID>
+			<CodeDescription>Technician - Electronics</CodeDescription>
+			<CodeProperty name="codeid">46-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>47-TEAM</CodeID>
+			<CodeDescription>Team Leader</CodeDescription>
+			<CodeProperty name="codeid">47-TEAM</CodeProperty>
+			<CodeProperty name="industry">Call Center;xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>team manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>48-ITA</CodeID>
+			<CodeDescription>IT Architect</CodeDescription>
+			<CodeProperty name="codeid">48-ITA</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>system architect</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>49-SALE</CodeID>
+			<CodeDescription>Sales Associates-Telesale</CodeDescription>
+			<CodeProperty name="codeid">49-SALE</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales associate</InstanceDescription>
+					<InstanceProperty name="confidence">64.8148148148148</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>telesales</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>telephone sales</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>telemarketing representative</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>telesales agent</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>telesales operator</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>5-CIO</CodeID>
+			<CodeDescription>CIO/CTO</CodeDescription>
+			<CodeProperty name="codeid">5-CIO</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>cto</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>cio</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>50-ACCO</CodeID>
+			<CodeDescription>Accounts Exec/Supvr</CodeDescription>
+			<CodeProperty name="codeid">50-ACCO</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>accounts supervisor</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>head of accounts department</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>accounts executive</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>51-TECH</CodeID>
+			<CodeDescription>Technician - Facility</CodeDescription>
+			<CodeProperty name="codeid">51-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>52-TRAI</CodeID>
+			<CodeDescription>Training Manager</CodeDescription>
+			<CodeProperty name="codeid">52-TRAI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>53-DATA</CodeID>
+			<CodeDescription>Data Entry Clerk</CodeDescription>
+			<CodeProperty name="codeid">53-DATA</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>data entry</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>word processor operator</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>data input clerk</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>54-ANAL</CodeID>
+			<CodeDescription>Analyst Programmer</CodeDescription>
+			<CodeProperty name="codeid">54-ANAL</CodeProperty>
+			<CodeProperty name="industry">IT Services;xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>analyst/developer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>programme analyst</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>analyst programmer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>a/p</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>senior a/p</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>analyst/programmer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>analyst developer</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>55-SYST</CodeID>
+			<CodeDescription>System Analyst</CodeDescription>
+			<CodeProperty name="codeid">55-SYST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>consulting, system analysis</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>system analyst</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>system analysis</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>systems analyst</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>56-HELP</CodeID>
+			<CodeDescription>Helpdesk Manager</CodeDescription>
+			<CodeProperty name="codeid">56-HELP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>57-FINA</CodeID>
+			<CodeDescription>Financial Planner</CodeDescription>
+			<CodeProperty name="codeid">57-FINA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>58-WARE</CodeID>
+			<CodeDescription>Warehouse Assistant</CodeDescription>
+			<CodeProperty name="codeid">58-WARE</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>59-SECR</CodeID>
+			<CodeDescription>Secretary</CodeDescription>
+			<CodeProperty name="codeid">59-SECR</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>senior secretary</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>assistant secretary</InstanceDescription>
+					<InstanceProperty name="confidence">53.030303030303</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>6-PROD</CodeID>
+			<CodeDescription>Production Operator</CodeDescription>
+			<CodeProperty name="codeid">6-PROD</CodeProperty>
+			<CodeProperty name="industry">Industrial</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>60-ANAL</CodeID>
+			<CodeDescription>Analyst Programmer-Snr</CodeDescription>
+			<CodeProperty name="codeid">60-ANAL</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>senior analyst/programmer</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>sr analyst</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>sr programmer/analyst</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>61-LOGI</CodeID>
+			<CodeDescription>Logistic Assistant</CodeDescription>
+			<CodeProperty name="codeid">61-LOGI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>62-ITA</CodeID>
+			<CodeDescription>IT Administrator</CodeDescription>
+			<CodeProperty name="codeid">62-ITA</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>63-HELP</CodeID>
+			<CodeDescription>Help Desk Manager</CodeDescription>
+			<CodeProperty name="codeid">63-HELP</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>64-CLER</CodeID>
+			<CodeDescription>Clerk-Payroll</CodeDescription>
+			<CodeProperty name="codeid">64-CLER</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>payroll administration</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>payroll clerk</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>payrol assistent</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>65-TECH</CodeID>
+			<CodeDescription>Technician - Service</CodeDescription>
+			<CodeProperty name="codeid">65-TECH</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>66-ADMI</CodeID>
+			<CodeDescription>Admin Assistant</CodeDescription>
+			<CodeProperty name="codeid">66-ADMI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>administrative assistant</InstanceDescription>
+					<InstanceProperty name="confidence">59.0909090909091</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>administration assistant</InstanceDescription>
+					<InstanceProperty name="confidence">59.0909090909091</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>assistent of administration</InstanceDescription>
+					<InstanceProperty name="confidence">59.0909090909091</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>67-SETT</CodeID>
+			<CodeDescription>Settlements Clerk</CodeDescription>
+			<CodeProperty name="codeid">67-SETT</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>68-CRED</CodeID>
+			<CodeDescription>Credit Analyst</CodeDescription>
+			<CodeProperty name="codeid">68-CRED</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>69-ENGI</CodeID>
+			<CodeDescription>Engineer - Equipment</CodeDescription>
+			<CodeProperty name="codeid">69-ENGI</CodeProperty>
+			<CodeProperty name="industry">Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>7-CASH</CodeID>
+			<CodeDescription>Cashier</CodeDescription>
+			<CodeProperty name="codeid">7-CASH</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>70-MOBI</CodeID>
+			<CodeDescription>Mobile N/w Planning Engr</CodeDescription>
+			<CodeProperty name="codeid">70-MOBI</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>71-COUR</CodeID>
+			<CodeDescription>Course Coordinator</CodeDescription>
+			<CodeProperty name="codeid">71-COUR</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>72-CLER</CodeID>
+			<CodeDescription>Clerk</CodeDescription>
+			<CodeProperty name="codeid">72-CLER</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>clerical duties</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>reconciliation's clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>expenses clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>despatch clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>insurance clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>admin assistant</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>cost clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>billing assistant</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>finance clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>technical clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>office assistant</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>office clerk</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>purchase ledger clerk</InstanceDescription>
+					<InstanceProperty name="confidence">83.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>sales ledger clerk</InstanceDescription>
+					<InstanceProperty name="confidence">83.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>bought ledger clerk</InstanceDescription>
+					<InstanceProperty name="confidence">83.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>junior clerk</InstanceDescription>
+					<InstanceProperty name="confidence">83.3333333333333</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>73-ACCO</CodeID>
+			<CodeDescription>Accountant</CodeDescription>
+			<CodeProperty name="codeid">73-ACCO</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>staff accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>book-keeper</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>book keeper</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>semi-senior certified accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>divisional management accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>jr. accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>project accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>general accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>group accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>financial accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>management accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>client accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>senior management accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>company accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>freelance bookkeeper</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>divisional accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>investment accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>systems accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>trainee chartered accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>senior financial accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>mgmt. accountant</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>bookkeeper</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>74-TREA</CodeID>
+			<CodeDescription>Treasury Manager</CodeDescription>
+			<CodeProperty name="codeid">74-TREA</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>75-MIS</CodeID>
+			<CodeDescription>MIS Executive</CodeDescription>
+			<CodeProperty name="codeid">75-MIS</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>76-CHAN</CodeID>
+			<CodeDescription>Channel Sales Executive</CodeDescription>
+			<CodeProperty name="codeid">76-CHAN</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>77-SETT</CodeID>
+			<CodeDescription>Settlements Officer</CodeDescription>
+			<CodeProperty name="codeid">77-SETT</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>78-TELE</CodeID>
+			<CodeDescription>Telecom Engineer</CodeDescription>
+			<CodeProperty name="codeid">78-TELE</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>79-INSO</CodeID>
+			<CodeDescription>Insolvency Acct</CodeDescription>
+			<CodeProperty name="codeid">79-INSO</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>insolvency accountant</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>8-SYST</CodeID>
+			<CodeDescription>System Administrator</CodeDescription>
+			<CodeProperty name="codeid">8-SYST</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>system administrator</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+				<Instance>
+					<InstanceDescription>systems administrator</InstanceDescription>
+					<InstanceProperty name="confidence">50</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>80-SENI</CodeID>
+			<CodeDescription>Senior Manager</CodeDescription>
+			<CodeProperty name="codeid">80-SENI</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sr manager</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>snr manager</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>81-HELP</CodeID>
+			<CodeDescription>Helpdesk Agent</CodeDescription>
+			<CodeProperty name="codeid">81-HELP</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>82-CUST</CodeID>
+			<CodeDescription>Customer Srv Rep - Adv</CodeDescription>
+			<CodeProperty name="codeid">82-CUST</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>customer service representative</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>customer service</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>83-SALE</CodeID>
+			<CodeDescription>Sales Exec/Offr</CodeDescription>
+			<CodeProperty name="codeid">83-SALE</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales executive</InstanceDescription>
+				</Instance>
+				<Instance>
+					<InstanceDescription>sales officer</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>84-COUR</CodeID>
+			<CodeDescription>Course Consultant</CodeDescription>
+			<CodeProperty name="codeid">84-COUR</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>85-MARK</CodeID>
+			<CodeDescription>Marketing Exec-Telesales</CodeDescription>
+			<CodeProperty name="codeid">85-MARK</CodeProperty>
+			<CodeProperty name="industry">Call Center</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>86-MARK</CodeID>
+			<CodeDescription>Marketing Executive</CodeDescription>
+			<CodeProperty name="codeid">86-MARK</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>87-RISK</CodeID>
+			<CodeDescription>Risk Manager</CodeDescription>
+			<CodeProperty name="codeid">87-RISK</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>risk manager</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>88-SAFE</CodeID>
+			<CodeDescription>Safety Officer</CodeDescription>
+			<CodeProperty name="codeid">88-SAFE</CodeProperty>
+			<CodeProperty name="industry">Industrial;Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>89-NETW</CodeID>
+			<CodeDescription>Network Administrator</CodeDescription>
+			<CodeProperty name="codeid">89-NETW</CodeProperty>
+			<CodeProperty name="industry">IT Services;xIT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>network administrator</InstanceDescription>
+					<InstanceProperty name="confidence">100</InstanceProperty>
+					<InstanceProperty name="transfer">manual</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>9-CRED</CodeID>
+			<CodeDescription>Credit Officer</CodeDescription>
+			<CodeProperty name="codeid">9-CRED</CodeProperty>
+			<CodeProperty name="industry">Finance/Legal</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>90-PROC</CodeID>
+			<CodeDescription>Procurement Executive</CodeDescription>
+			<CodeProperty name="codeid">90-PROC</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>91-ITQ</CodeID>
+			<CodeDescription>IT Quality Assurance</CodeDescription>
+			<CodeProperty name="codeid">91-ITQ</CodeProperty>
+			<CodeProperty name="industry">IT Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>quality technician</InstanceDescription>
+					<InstanceProperty name="confidence">30</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>92-MAIL</CodeID>
+			<CodeDescription>Mailroom Clerk</CodeDescription>
+			<CodeProperty name="codeid">92-MAIL</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>93-MARK</CodeID>
+			<CodeDescription>Marketing Director</CodeDescription>
+			<CodeProperty name="codeid">93-MARK</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>sales &amp; marketing director</InstanceDescription>
+					<InstanceProperty name="confidence">90</InstanceProperty>
+					<InstanceProperty name="transfer">auto</InstanceProperty>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>94-OPER</CodeID>
+			<CodeDescription>Operations Manager</CodeDescription>
+			<CodeProperty name="codeid">94-OPER</CodeProperty>
+			<CodeProperty name="industry">IT Services;Office Services;Technical/Eng/Arch</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification;Skill Classification;Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>95-CONF</CodeID>
+			<CodeDescription>Conference Assistant</CodeDescription>
+			<CodeProperty name="codeid">95-CONF</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>96-BUSI</CodeID>
+			<CodeDescription>Business Development</CodeDescription>
+			<CodeProperty name="codeid">96-BUSI</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>97-DEMO</CodeID>
+			<CodeDescription>Demonstrator</CodeDescription>
+			<CodeProperty name="codeid">97-DEMO</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>98-HRE</CodeID>
+			<CodeDescription>HR Executive</CodeDescription>
+			<CodeProperty name="codeid">98-HRE</CodeProperty>
+			<CodeProperty name="industry">Office Services</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList>
+				<Instance>
+					<InstanceDescription>human resource executive</InstanceDescription>
+				</Instance>
+			</InstanceList>
+		</CodeRecord>
+		<CodeRecord>
+			<CodeID>99-MARK</CodeID>
+			<CodeDescription>Marketing Assistant</CodeDescription>
+			<CodeProperty name="codeid">99-MARK</CodeProperty>
+			<CodeProperty name="industry">Sales &amp; Marketing</CodeProperty>
+			<CodeProperty name="skillgroup">Skill Classification</CodeProperty>
+			<InstanceList/>
+		</CodeRecord>
+	</CodeRecordList>
+</CodeTable>
