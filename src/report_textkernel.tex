@@ -14,7 +14,7 @@
 
 \begin{document}
 
-\title{Textkernel Coding Exercise}
+\title{Textkernel Coding Exercise\\ \textit{Bare codetable enrichment from client taxonomies}}
 \author{Héctor Martínez Alonso\\ \texttt{hector.martinez.a@gmail.com}}
 \date{\today}
 \maketitle
@@ -31,7 +31,7 @@ I have implemented the solution in Python 3.5, and the process is broken down as
 \item For all codes in the bare codetable, identify a best candidate for a string attractor.
 \item For all remaining synonyms, assign them to an attractor.
 \item Output the enriched codetable in the tab-separated format.
-
+\end{enumerate}
 \section{The T Matrix}
 The T matrix is arguably the most important data structure of this system. It is implemented with a dynamically sized \texttt{defaultdic(set)}, which allows to add new codeIDs to codes as new taxonomies are read.
 \section{Read taxonomies from XML}
@@ -41,13 +41,13 @@ The function \texttt{read\_enriched\_taxonomy\_from\_xml()} reads an XML file us
 The function \texttt{read\_enriched\_taxonomy\_from\_tab-separated()} is slightly simpler than its XML counterpart and it adds synonyms to T. I keep an enviroment variable \texttt{current\_codeid} to give account for the null values in codeIDs for the enriching synonyms that come right after a full code row. 
 
 \section{Identify best candidate for a string attractor}
-For all the code descriptors of the bare codetable, I retrieve the most similar string for all possible synomyns, the keys of the T matrix. In order to obtain the most similar string, I calculate an edit distance using a non-normalized Levenshtein distance implementation (\texttt{editdistance}, available on pip), and then normalize it by the length of the longest compared string. Substracting the resulting number from 1, I provide a similarity score defined between 0 and 1, where 1 means identical strings, cf the \texttt{similarity()} function. I perform all string comparisons in lowercase.
+For all the code descriptors of the bare codetable, I retrieve the most similar string for all possible synomyns, the keys of the T matrix. In order to obtain the most similar string, I calculate an edit distance using a non-normalized Levenshtein distance implementation (\texttt{editdistance}, available on pip), and then normalize it by the length of the longest compared string.  I perform all string comparisons in lowercase. Substracting the resulting number from 1, I provide a similarity score defined between 0 and 1, where 1 means identical strings, cf the \texttt{similarity()} function.
 
 
+I have added a threshold for the inclusion of an attractor (\texttt{attractor\_similarity\_threshold}). If set to 1, it only allows attractors identical to the query string, and for 0.5 it allows them to be halfway similar. The lower the threshold, the higher the recall, with the subsequent inclusion of noise and drop in precision.
 
 I use a \text{dict} to store the code--attractor relation, and another one for the opposite relations, as both are important for later retrieval.
 
-\end{enumerate}
 
 \section{Associate codes to attractors}
 This step is essentially a clustering step where words from T are associated to a class centroid, the attractor. For all the synonyms that are \textbf{not} attractors, I calculate two different attractor-wise scores:
@@ -60,6 +60,20 @@ I store each different score in a \texttt{Counter}, and I later add them togethe
 
 \section{Output enriched codebase}
 For all the codes in the bare codebase, I output an enriched version in the tab-separated format. Each entry begins with a codeID, synonym. The next line, if any, is the attractor, and if other synonyms have been assigned in the association step, they come after. Note that it is not mandatory to have any lines after the attractor, given the threshold I impose after scoring. Likewise, one could conceivably add a similar threshold when choosing attractors to increase precision at the cost of recall. A new code without an attractor would not be associated to any further synonyms.
+
+\section{Deliverables}
+
+\paragraph{Report:} \texttt{report.pdf}, namely the present document.
+
+\paragraph{Code:} The Python code for the system in \texttt{enrich\_code\_table.py}. 
+
+\paragraph{System output:}  Even though I have implemented readers for the xml and tab-separated format for taxonomies, I only use the two xml enriched taxonomies to generate the T matrix for known synonyms, and I use the tab-separated taxonomy (\texttt{experience.normalized4}) as bare ontology by retrieving only the codes with a codeID discarding those with a hyphen using \texttt{grep}.
+
+ The system has two parameters to regulate how lenient the system is when identifying string attractors , and how lenient it is for assigning other codes to attractors \texttt{min\_attraction}. Since I have declared two threshold variables for new code--attractor association and for known code--attractor association, I provide four output files of the fort \texttt{experience.normalized4.A=x.B=x} where A and B respond the values of the first and second threshold respectively. 
+ 
+ I provide A=[0.90,0.75] aiming at high precision in attractor identification and the morerelaxed B=[0.75,0.50] aiming at high recall in finding synonyms for attractors. Under realistic work circumstances, I would perform an avaluation on which efault parameter setting is best, either using automatic means or collecting user feedback.
+ 
+\paragraph{Bare codetable:} The codeID subset of  \texttt{experience.normalized4} used as bare codetable in file \texttt{experience.normalized4.barecodetable}
 
 
 

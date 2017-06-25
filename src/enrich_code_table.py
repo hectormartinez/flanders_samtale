@@ -21,7 +21,8 @@ def invertT(T):
 
 
 def output_enriched_taxonomy(code2stringattractor,enriched_synonyms_for_attractor,bare_codetable):
-    for code,codeid in bare_codetable.items():
+    for code in sorted(bare_codetable.keys()):
+        codeid = bare_codetable[code]
         print(codeid+"\t"+code)
         if code in code2stringattractor:
             attractor = code2stringattractor[code]
@@ -35,7 +36,6 @@ def read_enriched_taxonomy_from_xml(infile,T,):
     tree = ET.parse(infile)
     #We retrieve the second child from
     coderecord_list = tree.getroot().find("CodeRecordList")
-    #TODO iterate and retrieve T
     for coderecord in coderecord_list:
         #NB, Coderecords have different fields depending on client
         codeID = coderecord.find("CodeID").text
@@ -65,7 +65,7 @@ def read_bare_codetable_from_tapseparated(infile):
         codetable[description]=codeid #No append here, I am assuming code-codeID relation is unique
     return codetable
 
-def assign_descriptors_to_attractors(string_attractors,T,ignore_codeids=set(["OVERIG"]),min_attraction=0.5):
+def assign_descriptors_to_attractors(string_attractors,T,min_attraction=0.5,ignore_codeids=set(["OVERIG"])):
     enriched_synonyms_for_attractor = defaultdict(set)
     #First assign by shared codes
     unassigned_descriptors =  set(T.keys()).difference(set(string_attractors.keys()))
@@ -101,6 +101,8 @@ def main():
     parser.add_argument("--tabsep_codetables",  nargs='+', default=[])
     parser.add_argument("--bare_codetable", default="experience.normalized4.barecodetable")
 
+    newcode_attractor_similarity_threshold = 0.90
+    min_attraction_between_known_codes_and_attractor = 0.50
     args = parser.parse_args()
 
 
@@ -129,11 +131,14 @@ def main():
         levenshtein_similarity_ranker = Counter()
         for synonym_candidate in T.keys():
             levenshtein_similarity_ranker[synonym_candidate] = similarity(code_description_d.lower(),synonym_candidate)
-        string_attractor = levenshtein_similarity_ranker.most_common()[0][0]
-        string_attractor2code[string_attractor] = code_description_d.lower()
-        code2stringattractor[code_description_d] = string_attractor
+        string_attractor,attractor_similarity = levenshtein_similarity_ranker.most_common()[0]
+        if attractor_similarity < newcode_attractor_similarity_threshold:
+            pass
+        else:
+            string_attractor2code[string_attractor] = code_description_d.lower()
+            code2stringattractor[code_description_d] = string_attractor
 
-    enriched_synonyms_for_attractor, assigned_descriptors = assign_descriptors_to_attractors(string_attractor2code,T)
+    enriched_synonyms_for_attractor, assigned_descriptors = assign_descriptors_to_attractors(string_attractor2code,T,min_attraction_between_known_codes_and_attractor)
     output_enriched_taxonomy(code2stringattractor, enriched_synonyms_for_attractor,bare_codetable)
 
 
